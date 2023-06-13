@@ -63,9 +63,9 @@
 .navbar{
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  padding: 1rem 2rem;
+  padding: 2rem 15rem;
 }
 
 .navbar-logo{
@@ -99,16 +99,16 @@
       cursor: pointer;
 
       div{
-          width: 10px;
-          height: 10px;
+          width: 60%;
+          height: 5px;
           background: transparent;
-          border-radius: 50%;
+          border-radius: 10%;
 
-          margin-bottom: 20px;
+          margin-bottom: 5px;
       }
 
       a{
-          color: var(--gray-color);
+          color: white;
           text-decoration: none;
           flex-direction: column;
           text-transform: uppercase;
@@ -118,13 +118,13 @@
           transition: 0.2s ease-in-out;
 
           &:hover{
-              color: var(--secondary-color);
+              color: #627BFF;
           }
       }
 
       &:hover{
           div{
-              background: var(--secondary-color);
+              background: #627BFF;
           }
       }
   }
@@ -229,14 +229,41 @@
 /* Tailwind Styles */
 
 .head_text {
-  @apply mt-5  text-5xl leading-[1.2] bg-gradient-to-r from-[#627BFF] via-[#6972CD] via-[#627BFF] via-[#6972CD] to-[#627BFF]  bg-clip-text text-transparent sm:text-6xl text-center;
+  @apply font-medium text-9xl tracking-wide leading-[1.2]  sm:text-6xl text-center;
 }
 
-
-.purple_gradient {
-  @apply bg-gradient-to-r from-[#627BFF] via-[#6972CD] via-[#627BFF] via-[#6972CD] to-[#627BFF];
+.text_gradient{
+  @apply bg-gradient-to-r from-[#627BFF] via-[#6972CD] via-[#627BFF] via-[#6972CD] to-[#627BFF]  bg-clip-text text-transparent
 }
 
-.blue_gradient {
-  @apply font-black bg-gradient-to-r from-blue-600 to-cyan-600 bg-clip-text text-transparent;
+.sub-text{
+  @apply mt-10 font-bold text-center text-white text-xl;
+}
+
+.btn {
+  @apply mt-16 rounded-lg bg-[#627BFF] py-3 px-8 text-[#00000E] transition-all hover:bg-white hover:text-purple-700;
+}
+
+.buy_btn{
+  @apply mt-2 font-russo text-xl rounded-lg bg-transparent py-3 px-8 text-[#627BFF] transition-all hover:bg-white hover:text-purple-700 border-4 border-[#627BFF] hover:border-transparent;
+}
+
+.link_text{
+  @apply font-russo text-center text-white;
+}
+
+.p_text{
+  @apply mt-20 leading-[200%] tracking-[10%] font-outfit font-semibold text-center text-white w-[65%] text-2xl;
+}
+
+.section_text{
+  @apply font-russo tracking-widest text-5xl;
+}
+
+.about{
+  @apply w-full px-32 py-32 flex flex-col items-center bg-white/5 backdrop-blur-2xl;
+}
+
+.mile_stone{
+  @apply flex flex-row justify-center items-center px-32 py-32 border-white border-2
 }

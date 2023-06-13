@@ -3,7 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './index.scss'
 
-import { Navbar, Home, About, Contact, Tokenomics } from './components'
+import { Navbar, Home, About, Contact, Tokenomics, Floors } from './components'
 
 
 const App = () => {
@@ -13,6 +13,7 @@ const App = () => {
       <Navbar />
       <Home />
       <About />
+      <Floors />
       <Contact />
       <Tokenomics />
     </div>
