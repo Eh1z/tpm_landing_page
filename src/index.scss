@@ -11,30 +11,6 @@
 }
 
 
-.main {
-  width: 100vw;
-  min-height: 100vh;
-  position: fixed;
-  display: flex;
-  justify-content: center;
-  padding: 120px 24px 160px 24px;
-  pointer-events: none;
-}
-
-
-
-.main:after {
-  content: "";
-  background-image: url("/src/assets/grid.svg");
-  z-index: 1;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  opacity: 0.4;
-  filter: invert(1);
-}
-
 .gradient {
   height: fit-content;
   z-index: 3;
@@ -113,7 +89,6 @@
           flex-direction: column;
           text-transform: uppercase;
           font-weight: 500;
-          font-family: russo;
 
           transition: 0.2s ease-in-out;
 
@@ -144,12 +119,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: var(--secondary-color);
+  background: #627BFF;
 
   svg{
       width: 70%;
       height: 70%;
-      color: var(--white-color);
+      color: white;
   }
 
   div{
@@ -170,7 +145,7 @@
       align-items: flex-end;
 
       background: url(../../assets/bgWhite.png);
-      background-color: var(--white-color);
+      background-color: white;
       background-size: cover;
       background-repeat: repeat;
       
@@ -180,7 +155,7 @@
       svg{
           width: 35px;
           height: 35px;
-          color: var(--secondary-color);
+          color: #627BFF;
           margin: 0.5rem 1rem;
       }
 
@@ -200,7 +175,7 @@
               margin: 1rem;
 
               a{
-                  color: var(--gray-color);
+                  color: white;
                   text-decoration: none;
                   font-size: 1rem;
                   text-transform: uppercase;
@@ -209,7 +184,7 @@
                   transition: 0.3s ease-in-out;
           
                   &:hover{
-                   color: var(--secondary-color);
+                   color: #627BFF;
                   }
               }
           }
