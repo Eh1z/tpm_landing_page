@@ -1,15 +1,21 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-import './index.css'
+import './index.scss'
+
+import { Navbar, Home, About, Contact, Tokenomics } from './components'
 
 
 const App = () => {
   return (
     <>
-    <div className='w-full h-60 bg-black'>
+    <div className=' flex-col w-full h-auto bg-[#00000E] text-white'>
+      <Navbar />
+      <Home />
+      <About />
+      <Contact />
+      <Tokenomics />
     </div>
-    <h1 className='text-3xl font-bold underline'>Hello World!</h1>
     </>
   )
 }

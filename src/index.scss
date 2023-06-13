@@ -229,12 +229,12 @@
 /* Tailwind Styles */
 
 .head_text {
-  @apply mt-5 text-5xl font-extrabold leading-[1.15] text-black sm:text-6xl text-center;
+  @apply mt-5  text-5xl leading-[1.2] bg-gradient-to-r from-[#627BFF] via-[#6972CD] via-[#627BFF] via-[#6972CD] to-[#627BFF]  bg-clip-text text-transparent sm:text-6xl text-center;
 }
 
 
 .purple_gradient {
-  @apply bg-gradient-to-r from-blue-500 via-purple-600 to-cyan-500 bg-clip-text text-transparent;
+  @apply bg-gradient-to-r from-[#627BFF] via-[#6972CD] via-[#627BFF] via-[#6972CD] to-[#627BFF];
 }
 
 .blue_gradient {
