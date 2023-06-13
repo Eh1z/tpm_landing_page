@@ -14,8 +14,8 @@ const App = () => {
       <Home />
       <About />
       <Floors />
-      <Contact />
       <Tokenomics />
+      <Contact />
     </div>
     </>
   )
