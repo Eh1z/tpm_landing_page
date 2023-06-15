@@ -204,7 +204,7 @@
 /* Tailwind Styles */
 
 .head_text {
-  @apply font-medium text-4xl sm:text-6xl tracking-wide leading-[1.2] text-center;
+  @apply font-medium text-3xl sm:text-6xl tracking-wide leading-[1.2] text-center;
 }
 
 .text_gradient{
@@ -212,11 +212,11 @@
 }
 
 .sub-text{
-  @apply mt-10 font-bold text-center text-white text-sm w-[60%] sm:text-xl;
+  @apply w-full mt-10 font-bold text-center text-white text-sm sm:text-xl;
 }
 
 .btn {
-  @apply text-sm sm:text-lg mt-16 rounded-lg bg-[#627BFF] py-3 px-6 text-[#00000E] transition-all hover:bg-white hover:text-purple-700 sm:w-[175px];
+  @apply text-xs sm:text-lg mt-16 rounded-lg bg-[#627BFF] py-2 px-3 text-[#00000E] transition-all hover:bg-white hover:text-purple-700 sm:w-[175px];
 }
 
 .buy_btn{
@@ -228,19 +228,19 @@
 }
 
 .p_text{
-  @apply mt-20 leading-[200%] tracking-[10%] font-outfit font-semibold text-center text-white w-[65%] text-2xl;
+  @apply  mt-6 md:mt-20 leading-[160%] md:leading-[200%] tracking-[10%] font-outfit font-semibold text-center text-white w-full md:w-[65%] text-lg md:text-2xl;
 }
 
 .section_text{
-  @apply font-russo tracking-widest text-5xl;
+  @apply font-russo tracking-widest text-2xl md:text-5xl;
 }
 
 .about{
-  @apply w-full px-32 py-32 flex flex-col items-center bg-gradient-to-r from-[#42566733] to-[#2029324c] bg-opacity-5;
+  @apply w-full px-10 py-10 md:px-32 md:py-32 flex flex-col items-center bg-gradient-to-r from-[#42566733] to-[#2029324c] bg-opacity-5;
 }
 
 .mile_stone{
-  @apply flex flex-row justify-between items-center px-32 py-32;
+  @apply flex flex-col md:flex-row justify-center md:justify-between items-center py-10 px-10 md:px-32 md:py-32 text-center md:text-left h-auto;
 }
 
 .mile-img{
@@ -248,7 +248,7 @@
 }
 
 .token{
-  @apply w-full px-32 py-32 flex flex-col items-center bg-gradient-to-r from-[#42566733] to-[#2029324c] bg-opacity-5;
+  @apply w-full px-10 py-10 md:px-32 md:py-32 flex flex-col items-center bg-gradient-to-r from-[#42566733] to-[#2029324c] bg-opacity-5;
 }
 
 

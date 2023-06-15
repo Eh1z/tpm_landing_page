@@ -19,7 +19,7 @@ const Navbar = () => {
           ))}
         </ul>
 
-        <button className='buy_btn'>
+        <button className='buy_btn invisible md:visible'>
           Buy Now
         </button>
   
