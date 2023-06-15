@@ -4,6 +4,7 @@ import { images } from "../assets";
 const Floors = () => {
   return (
     <div className="floors">
+
         <div className='mile_stone'>
 
             <div className='mile_text'>

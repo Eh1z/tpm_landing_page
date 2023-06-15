@@ -216,7 +216,7 @@
 }
 
 .btn {
-  @apply mt-16 rounded-lg bg-[#627BFF] py-3 px-8 text-[#00000E] transition-all hover:bg-white hover:text-purple-700;
+  @apply mt-16 rounded-lg bg-[#627BFF] py-3 px-8 text-[#00000E] transition-all hover:bg-white hover:text-purple-700 w-[175px];
 }
 
 .buy_btn{
@@ -236,7 +236,7 @@
 }
 
 .about{
-  @apply w-full px-32 py-32 flex flex-col items-center bg-white/5 backdrop-blur-2xl;
+  @apply w-full px-32 py-32 flex flex-col items-center bg-gradient-to-r from-[#42566733] to-[#2029324c] bg-opacity-5;
 }
 
 .mile_stone{
@@ -246,3 +246,9 @@
 .mile-img{
   @apply w-[50%] flex justify-center items-center;
 }
+
+.token{
+  @apply w-full px-32 py-32 flex flex-col items-center bg-gradient-to-r from-[#42566733] to-[#2029324c] bg-opacity-5;
+}
+
+
