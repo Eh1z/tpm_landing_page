@@ -17,7 +17,7 @@ const Tokenomics = () => {
 
       <div className='buy_back'>
         <h2 className='text_gradient text-center md:text-left section_text py-5'>BUY BACKS</h2>
-        <p className='text-center md:text-left w-full md:leading-8 font-outfit font-semibold text-sm md:text-2xl'>
+        <p className='text-center md:text-left w-full md:leading-8 font-outfit font-semibold text- md:text-2xl'>
         Buybacks will be done once we dip below the floor.<br/>
         Every time a buyback is done we use 40% of the buyback pot while 60% will be saved up.<br/><br/>
 
