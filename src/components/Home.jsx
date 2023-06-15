@@ -3,7 +3,7 @@ import { images } from '../assets'
 
 const Home = () => {
   return (
-    <div className='flex flex-col justify-center w-full h-[80vh] '>
+    <div className='flex flex-col justify-center w-full h-[60vh] sm:h-[80vh] '>
 
       <div className='flex-col flex items-center z-10'>
       <img  className='absolute w-full translate-y-[-30px]' src={images.wave} alt="wave" />

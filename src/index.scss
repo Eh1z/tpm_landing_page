@@ -204,7 +204,7 @@
 /* Tailwind Styles */
 
 .head_text {
-  @apply font-medium text-9xl tracking-wide leading-[1.2]  sm:text-6xl text-center;
+  @apply font-medium text-4xl sm:text-6xl tracking-wide leading-[1.2] text-center;
 }
 
 .text_gradient{
@@ -212,11 +212,11 @@
 }
 
 .sub-text{
-  @apply mt-10 font-bold text-center text-white text-xl;
+  @apply mt-10 font-bold text-center text-white text-sm w-[60%] sm:text-xl;
 }
 
 .btn {
-  @apply mt-16 rounded-lg bg-[#627BFF] py-3 px-8 text-[#00000E] transition-all hover:bg-white hover:text-purple-700 w-[175px];
+  @apply text-sm sm:text-lg mt-16 rounded-lg bg-[#627BFF] py-3 px-6 text-[#00000E] transition-all hover:bg-white hover:text-purple-700 sm:w-[175px];
 }
 
 .buy_btn{
