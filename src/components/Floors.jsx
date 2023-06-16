@@ -9,26 +9,26 @@ const Floors = () => {
 
             <div className='mile_text'>
                 <h2 className='text_gradient section_text py-5'>THE $50K FLOOR</h2>
-                  <p className='align-center md:align-left w-full md:w-[80%] md:leading-8 font-outfit font-semibold text-lg md:text-2xl'>After we reach $50k market cap, the sells will be opened and we will use the anti-jeet system to avoid huge dumps.<br/><br/>
+                  <p className='align-center xl:align-left w-full xl:w-[80%] xl:leading-8 font-outfit font-semibold text-lg xl:text-2xl'>After we reach $50k market cap, the sells will be opened and we will use the anti-jeet system to avoid huge dumps.<br/><br/>
                     If we dip below $50k again sells will be disabled and a buyback will be done.<br/><br/>
                     Once back above $50k sells will opened again. This is the floor system.
                   </p>
             </div>
 
             <div className='mile-img'>
-                <img className='hidden md:block' src={images.mockup} alt="" />
+                <img className='hidden xl:block' src={images.mockup} alt="" />
             </div>
         </div>
 
         <div className='mile_stone'>
 
-            <div className='mile-img md:pr-80'>
-                <img className='hidden md:block' src={images.mockup} alt="" />
+            <div className='mile-img '>
+                <img className='hidden xl:block' src={images.mockup} alt="" />
             </div>
 
-            <div className='mile_text'>
+            <div className='mile_text xl:pl-60'>
                 <h2 className='text_gradient section_text py-5'>THE RISING FLOOR</h2>
-                  <p className='align-center md:align-left w-full md:w-[80%] md:leading-8 font-outfit font-semibold text-lg md:text-2xl'>
+                  <p className='align-center xl:align-left w-full xl:w-[100%] xl:leading-8 font-outfit font-semibold text-lg xl:text-2xl'>
                   The floor will be rising once we get above $75k market cap and the floor will be 30% down from the all time high forever.<br/><br/>
                   Here it works the same if we go below the market cap which  represents the floor,  sells will be disabled.<br/><br/>
                   They will be enabled again once we go above that same market cap.
@@ -41,7 +41,7 @@ const Floors = () => {
 
             <div className='mile_text'>
                 <h2 className='text_gradient section_text py-5'>THE ANTI-JEET SYSTEM</h2>
-                  <p className='align-center md:align-left w-full md:w-[80%] md:leading-8 font-outfit font-semibold text-lg md:text-2xl'>
+                  <p className='align-center xl:align-left w-full xl:w-[80%] xl:leading-8 font-outfit font-semibold text-lg xl:text-2xl'>
                   Sells are allowed for every holder at 0.1% of the supply every 2 hours (on $50k market cap that will be $50 every hour and a maximum of $600 a day) .<br/><br/>
                   We do this to show everyone the power of holding and taking profits responsibly.<br/><br/>
                   This can moon faster than your mom on meth😎
@@ -49,7 +49,7 @@ const Floors = () => {
             </div>
 
             <div className='mile-img'>
-                <img className='hidden md:block' src={images.mockup} alt="" />
+                <img className='hidden xl:block' src={images.mockup} alt="" />
             </div>
         </div>
     </div>

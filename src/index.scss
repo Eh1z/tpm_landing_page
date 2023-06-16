@@ -11,197 +11,30 @@
 }
 
 
-.gradient {
-  height: fit-content;
-  z-index: 3;
-  width: 100%;
-  max-width: 640px;
-  background-image: radial-gradient(
-      at 27% 37%,
-      hsla(215, 98%, 61%, 1) 0px,
-      transparent 0%
-    ),
-    radial-gradient(at 97% 21%, hsla(125, 98%, 72%, 1) 0px, transparent 50%),
-    radial-gradient(at 52% 99%, hsla(354, 98%, 61%, 1) 0px, transparent 50%),
-    radial-gradient(at 10% 29%, hsla(256, 96%, 67%, 1) 0px, transparent 50%),
-    radial-gradient(at 97% 96%, hsla(38, 60%, 74%, 1) 0px, transparent 50%),
-    radial-gradient(at 33% 50%, hsla(222, 67%, 73%, 1) 0px, transparent 50%),
-    radial-gradient(at 79% 53%, hsla(343, 68%, 79%, 1) 0px, transparent 50%);
-  position: absolute;
-  content: "";
-  width: 100%;
-  height: 100%;
-  filter: blur(200px) saturate(150%);
-  top: 80px;
-  opacity: .5;
-}
-
 .navbar{
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   padding: 2rem 15rem;
 }
 
-.navbar-logo{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  img{
-      width: 80px;
-      height: 80px;
-     
-      @media screen and (min-width: 2000px){
-          width: 100px;
-          height: 100px;
-      }
-          
-  }
-}
-
-.navbar-links{
-  flex: 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 120px;
-
-  list-style: none;
-
-  li{
-      margin: 0 1rem;
-      cursor: pointer;
-
-      div{
-          width: 60%;
-          height: 5px;
-          background: transparent;
-          border-radius: 10%;
-
-          margin-bottom: 5px;
-      }
-
-      a{
-          color: white;
-          text-decoration: none;
-          flex-direction: column;
-          text-transform: uppercase;
-          font-weight: 500;
-
-          transition: 0.2s ease-in-out;
-
-          &:hover{
-              color: #627BFF;
-          }
-      }
-
-      &:hover{
-          div{
-              background: #627BFF;
-          }
-      }
-  }
-
-  @media screen and (max-width:900px){
-      display: none;
-
-  }
-}
-
-.navbar-menu{
-  width: 35px;
-  height: 35px;
-  border-radius: 50%;
-  position: relative;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: #627BFF;
-
-  svg{
-      width: 70%;
-      height: 70%;
-      color: white;
-  }
-
-  div{
-      position: fixed;
-      top: 0;
-      bottom: 0;
-      right: 0;
-      z-index: 3;
-
-      padding: 1rem;
-      width: 80%;
-      height: 100vh;
-
-
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-end;
-      align-items: flex-end;
-
-      background: url(../../assets/bgWhite.png);
-      background-color: white;
-      background-size: cover;
-      background-repeat: repeat;
-      
-
-      box-shadow: 0 0 20px rgba(168, 168, 168, 0.15);
-
-      svg{
-          width: 35px;
-          height: 35px;
-          color: #627BFF;
-          margin: 0.5rem 1rem;
-      }
-
-      ul{
-          list-style: none;
-          height: 100%;
-          width: 100%;
-          padding: 0;
-          margin: 0;
-
-          display: flex;
-          justify-content: flex-start;
-          align-items: flex-start;
-          flex-direction: column;
-
-          li{
-              margin: 1rem;
-
-              a{
-                  color: white;
-                  text-decoration: none;
-                  font-size: 1rem;
-                  text-transform: uppercase;
-                  font-weight: 500;
-                  
-                  transition: 0.3s ease-in-out;
-          
-                  &:hover{
-                   color: #627BFF;
-                  }
-              }
-          }
-      }
-
-      @media screen and (min-width: 900px) {
-          display: none;   
-      }
-  }
-
-  @media screen and (min-width: 900px) {
-      display: none;   
-  }
-}
-
-
 /* Tailwind Styles */
+
+.navbar_logo{
+  @apply w-[100px] h-[100px];
+}
+
+.navbar_links{
+  @apply flex-row justify-between items-center hidden xl:inline-flex;
+}
+
+.link_text{
+  @apply px-16 py-10;
+}
+.navbar_menu{
+  @apply xl:hidden;
+}
 
 .head_text {
   @apply font-medium text-3xl sm:text-6xl tracking-wide leading-[1.2] text-center;
@@ -228,19 +61,19 @@
 }
 
 .p_text{
-  @apply  mt-6 md:mt-20 leading-[160%] md:leading-[200%] tracking-[10%] font-outfit font-semibold text-center text-white w-full md:w-[65%] text-lg md:text-2xl;
+  @apply  mt-6 xl:mt-20 leading-[160%] xl:leading-[200%] tracking-[10%] font-outfit font-semibold text-center text-white w-full xl:w-[80%] text-lg xl:text-2xl;
 }
 
 .section_text{
-  @apply font-russo tracking-widest text-2xl md:text-5xl;
+  @apply font-russo tracking-widest text-2xl xl:text-5xl;
 }
 
 .about{
-  @apply w-full px-10 py-10 md:px-32 md:py-32 flex flex-col items-center bg-gradient-to-r from-[#42566733] to-[#2029324c] bg-opacity-5;
+  @apply w-full px-10 py-10 xl:px-32 xl:py-32 flex flex-col items-center bg-gradient-to-r from-[#42566733] to-[#2029324c] bg-opacity-5;
 }
 
 .mile_stone{
-  @apply flex flex-col md:flex-row justify-center md:justify-between items-center py-10 px-10 md:px-32 md:py-32 text-center md:text-left h-auto;
+  @apply flex flex-col xl:flex-row justify-center xl:justify-between items-center py-10 px-10 xl:px-32 xl:py-32 text-center xl:text-left h-auto;
 }
 
 .mile-img{
@@ -248,7 +81,7 @@
 }
 
 .token{
-  @apply w-full px-10 py-10 md:px-32 md:py-32 flex flex-col items-center bg-gradient-to-r from-[#42566733] to-[#2029324c] bg-opacity-5;
+  @apply w-full px-10 py-10 xl:px-32 xl:py-32 flex flex-col items-center bg-gradient-to-r from-[#42566733] to-[#2029324c] bg-opacity-5;
 }
 
 

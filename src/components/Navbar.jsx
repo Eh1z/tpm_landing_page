@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { HiMenuAlt4, HiX } from 'react-icons/hi';
+import { HiMenuAlt3, HiX } from 'react-icons/hi';
 import { images } from '../assets'
 
 const Navbar = () => {
@@ -7,10 +7,10 @@ const Navbar = () => {
 
     return (
       <nav className="navbar">
-        <div className="navbar-logo">
+        <div className="navbar_logo">
           <img src={images.logo} alt="logo" />
         </div>
-        <ul className="navbar-links ">
+        <ul className="navbar_links ">
           {['Home', 'About', 'Tokenomics', 'Contact'].map((item) => (
             <li className="link_text" key={`link-${item}`}>
               <div />
@@ -19,12 +19,12 @@ const Navbar = () => {
           ))}
         </ul>
 
-        <button className='buy_btn hidden md:block'>
+        <button className='buy_btn hidden xl:block'>
           Buy Now
         </button>
   
-        <div className="navbar-menu">
-          <HiMenuAlt4 onClick={() => setToggle(true)} />
+        <div className="navbar_menu">
+          <HiMenuAlt3 onClick={() => setToggle(true)} />
   
           {toggle && (
             <div>
