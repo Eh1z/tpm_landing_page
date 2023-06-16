@@ -15,15 +15,15 @@ const Floors = () => {
                   </p>
             </div>
 
-            <div className='mile-img invisible md:visible'>
-                <img src={images.mockup} alt="" />
+            <div className='mile-img'>
+                <img className='hidden md:block' src={images.mockup} alt="" />
             </div>
         </div>
 
         <div className='mile_stone'>
 
-            <div className='mile-img invisible md:visible md:pr-80'>
-                <img src={images.mockup} alt="" />
+            <div className='mile-img md:pr-80'>
+                <img className='hidden md:block' src={images.mockup} alt="" />
             </div>
 
             <div className='mile_text'>
@@ -48,8 +48,8 @@ const Floors = () => {
                   </p>
             </div>
 
-            <div className='mile-img invisible md:visible'>
-                <img src={images.mockup} alt="" />
+            <div className='mile-img'>
+                <img className='hidden md:block' src={images.mockup} alt="" />
             </div>
         </div>
     </div>
