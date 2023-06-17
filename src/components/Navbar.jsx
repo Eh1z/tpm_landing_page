@@ -52,7 +52,11 @@ const Navbar = () => {
                 <li>
                   <Link className='link_text a' to="contact_nav" onClick={() => setToggle(false)}>Contact</Link>
                 </li>
-                
+
+                  <li className='w-full flex flex-col justify-center items-center'>
+                    <button className='buy_btn px-32 hover:border-[#7E22CE]' onClick={handleClick} >{text}</button>
+                  </li>
+                  
               </ul>
             </div>
           )}

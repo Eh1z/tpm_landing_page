@@ -91,6 +91,7 @@ div{
         li{
               display: flex;
               justify-content: space-between;
+              width: 100%;
 
             .a{
                 color: #627BFF;
@@ -132,7 +133,7 @@ div{
 }
 
 .head_text {
-  @apply font-medium text-3xl sm:text-6xl tracking-wide leading-[1.2] text-center;
+  @apply font-medium text-3xl sm:text-6xl tracking-wide leading-[1.2] text-center drop-shadow-2xl;
 }
 
 .text_gradient{
@@ -144,7 +145,7 @@ div{
 }
 
 .btn {
-  @apply text-xs sm:text-lg mt-10 lg:mt-16 rounded-lg bg-[#627BFF] py-2 px-3 text-[#00000E] transition-all hover:bg-white hover:text-purple-700 sm:w-[175px];
+  @apply text-xs sm:text-lg mt-16 rounded-lg bg-[#627BFF] py-2 px-3 text-[#00000E] transition-all hover:bg-white hover:text-purple-700 sm:w-[175px];
 }
 
 .buy_btn{

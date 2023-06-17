@@ -15,7 +15,7 @@ const App = () => {
       <Navbar />
 
       <img  className='absolute blur-3xl top-[200px] left-0' src={images.pblur} alt="purple blur" />
-      <img  className='absolute blur-3xl top-[120px] right-0' src={images.yblur} alt="yellow blur" />
+      <img  className='absolute blur-3xl top-[120px] right-0 hidden 2xl:block' src={images.yblur} alt="yellow blur" />
       <img  className='absolute blur-3xl bottom-[-500px] right-0' src={images.gblur} alt="" />
 
       <Home />
