@@ -28,7 +28,7 @@ const App = () => {
       <Tokenomics />
 
       <img  className='absolute blur-3xl top-[3000px] left-0 hidden 2xl:block' src={images.bblur} alt="blue blur" />
-      <img  className='absolute blur-3xl bottom-[-3200px] hidden 2xl:block' src={images.yblur} alt="yellow blur" />
+      <img  className='absolute blur-3xl bottom-[-3900px] right-0 hidden 2xl:block' src={images.yblur} alt="yellow blur" />
       <img  className='absolute blur-3xl bottom-[-4600px] left-0 hidden 2xl:block' src={images.gblur} alt="" />
 
       <Contact />

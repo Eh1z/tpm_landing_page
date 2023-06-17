@@ -4,7 +4,7 @@ import { Table } from './table/'
 
 const Tokenomics = () => {
   return (
-    <div className='token align-left'>
+    <div className='token align-left' id='token_nav'>
       <h1 className='text_gradient section_text pb-20'>Tokenomics</h1>
 
       <div className='w-full '>

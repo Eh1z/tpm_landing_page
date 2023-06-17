@@ -2,7 +2,7 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div className='about'>
+    <div className='about' id='about_nav'>
       <div className='text_gradient section_text'>About</div>
 
       <p className='p_text'>This is an experimental coin that will try and secure a $50k market cap and after that a rising floor through a buyback system, an anti-jeet and a honeypot system.

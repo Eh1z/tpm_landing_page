@@ -44,7 +44,7 @@ const Floors = () => {
                   <p className='align-center xl:align-left w-full xl:w-[80%] xl:leading-8 font-outfit font-semibold text-lg xl:text-2xl'>
                   Sells are allowed for every holder at 0.1% of the supply every 2 hours (on $50k market cap that will be $50 every hour and a maximum of $600 a day) .<br/><br/>
                   We do this to show everyone the power of holding and taking profits responsibly.<br/><br/>
-                  This can moon faster than your mom on meth😎
+                  This can moon faster than your mom on meth!
                   </p>
             </div>
 
