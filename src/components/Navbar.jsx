@@ -8,7 +8,7 @@ const Navbar = () => {
     return (
       <nav className="navbar">
         <div className="navbar_logo">
-          <img src={images.logo} alt="logo" />
+          <img className='w-full' src={images.logo} alt="logo" />
         </div>
         <ul className="navbar_links ">
           {['Home', 'About', 'Tokenomics', 'Contact'].map((item) => (
@@ -19,12 +19,12 @@ const Navbar = () => {
           ))}
         </ul>
 
-        <button className='buy_btn hidden xl:block'>
+        <button className='buy_btn hidden lg:block'>
           Buy Now
         </button>
   
         <div className="navbar_menu">
-          <HiMenuAlt3 onClick={() => setToggle(true)} />
+          <HiMenuAlt3  onClick={() => setToggle(true)} />
   
           {toggle && (
             <div>
